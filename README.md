@@ -27,9 +27,7 @@ Conclusions:
 9.  A long string of adenosine (MaxLength_A) can make the ASO less toxic; ASOs with more guanine (Number_G) in its sequence tend be more toxic.
 10.  After including new features, all the 3 models (Linear Regressio, Lasso Regression and Ridge Regression) outperform Roche model in accuracy curve, because they have greater maximum accuracy and the drop of their accuracy is less steep when we raise the threshold, but all the 3 models (Linear Regressio, Lasso Regression and Ridge Regression) don't outperform Roche model when they are evaluated using ROC curves.
 
-Future directions
-1.Explore additional regression models including Random Forest Regressor and Gradient Boosting Regressor may further improve the model performance, since there could be some non-linear relationship between the selected features and the ASO toxicity score.
-
-2.Explore addtional datasets from published literatures or patents to increase the sample size of training set my further improve the accuracy of the model.
-
-3.Spend additional efforts in feature engineering (e.g. adding the frequency information of all the 16 types of dinucleotides) may further improve the model accuracy.
+Future directions:
+1. Explore additional regression models including Random Forest Regressor and Gradient Boosting Regressor may further improve the model performance, since there could be some non-linear relationship between the selected features and the ASO toxicity score.
+2. Explore addtional datasets from published literatures or patents to increase the sample size of training set my further improve the accuracy of the model.
+3. Spend additional efforts in feature engineering (e.g. adding the frequency information of all the 16 types of dinucleotides) may further improve the model accuracy.
